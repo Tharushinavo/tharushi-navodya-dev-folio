@@ -41,19 +41,19 @@ export const ContactSection = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "tharushi.navodya@email.com",
-      link: "mailto:tharushi.navodya@email.com"
+      value: "tharushinavodya@gmail.com",
+      link: "mailto:tharushinavodya@gmail.com"
     },
     {
       icon: Phone,
       title: "Phone",
-      value: "+94 77 123 4567",
-      link: "tel:+94771234567"
+      value: "+94 70 111 5711",
+      link: "tel:+94701115711"
     },
     {
       icon: MapPin,
       title: "Location",
-      value: "Colombo, Sri Lanka",
+      value: "Thalawathugoda, Pannipitiya",
       link: "#"
     }
   ];

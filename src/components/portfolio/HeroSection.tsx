@@ -1,6 +1,6 @@
 import { ArrowDown, Download, Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import profileImage from "@/assets/tharushi-profile.jpg";
+import profileImage from "@/assets/tharushi-profile-real.jpg";
 import heroBg from "@/assets/hero-bg-pattern.jpg";
 
 export const HeroSection = () => {
@@ -41,14 +41,14 @@ export const HeroSection = () => {
                 </span>
               </h1>
               <h2 className="text-xl md:text-2xl text-muted-foreground font-medium">
-                IT Undergraduate & Software Developer
+                Information Technology Undergraduate
               </h2>
             </div>
             
             <p className="text-lg text-muted-foreground mb-8 max-w-lg leading-relaxed">
-              Building user-friendly applications and solving real-world problems 
-              with clean code and thoughtful design. Passionate about creating 
-              digital experiences that make a difference.
+              Proactive Information Technology undergraduate specializing in Information 
+              Technology at SLIIT. Passionate about developing innovative solutions 
+              and creating impactful digital experiences.
             </p>
             
             {/* Action Buttons */}
@@ -90,7 +90,7 @@ export const HeroSection = () => {
                 <Github className="w-5 h-5 text-muted-foreground hover:text-primary transition-colors" />
               </a>
               <a 
-                href="mailto:tharushi.navodya@email.com" 
+                href="mailto:tharushinavodya@gmail.com" 
                 className="p-3 rounded-full border border-border hover:border-primary hover:glow-primary transition-all duration-300"
               >
                 <Mail className="w-5 h-5 text-muted-foreground hover:text-primary transition-colors" />

@@ -8,38 +8,56 @@ export const ProjectsSection = () => {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Mobile App",
-      description: "A modern mobile application for online shopping with intuitive UI/UX design, secure payment integration, and real-time inventory management.",
+      title: "GROCERY Household Web Application - MERN Stack",
+      description: "A comprehensive web application for household grocery management with modern UI/UX design and full-stack functionality.",
       image: mobileAppProject,
-      technologies: ["React Native", "Node.js", "MongoDB", "Stripe API"],
-      role: "Full-Stack Developer & UI/UX Designer",
+      technologies: ["MongoDB", "Express.js", "React", "Node.js"],
+      role: "Full-Stack Developer",
       features: [
         "User authentication & profiles",
-        "Product catalog with search & filters",
-        "Shopping cart & checkout flow",
-        "Order tracking & history",
-        "Push notifications"
+        "Grocery inventory management", 
+        "Shopping list functionality",
+        "Household management system",
+        "Responsive design"
       ],
-      githubUrl: "https://github.com/tharushi-navodya/ecommerce-mobile",
-      liveUrl: "https://demo.ecommerce-app.com",
-      status: "In Development"
+      githubUrl: "https://github.com/tharushi-navodya/grocery-household",
+      liveUrl: "#",
+      status: "Completed"
     },
     {
       id: 2,
-      title: "Analytics Dashboard",
-      description: "A comprehensive web dashboard for data visualization and business analytics with interactive charts, real-time updates, and customizable reports.",
+      title: "FOOD Web Application - Spring Boot and React js",
+      description: "A modern food delivery web application built with Spring Boot backend and React frontend with comprehensive features.",
       image: webDashboardProject,
-      technologies: ["React", "Spring Boot", "PostgreSQL", "Chart.js"],
-      role: "Frontend Developer",
+      technologies: ["Spring Boot", "React", "JavaScript", "HTML/CSS"],
+      role: "Full-Stack Developer",
       features: [
-        "Interactive data visualizations",
-        "Real-time data updates",
-        "Custom report generation",
-        "User role management",
-        "Export functionality"
+        "Restaurant management system",
+        "Order processing & tracking",
+        "Menu management",
+        "User authentication",
+        "Payment integration"
       ],
-      githubUrl: "https://github.com/tharushi-navodya/analytics-dashboard",
-      liveUrl: "https://demo.analytics-dashboard.com",
+      githubUrl: "https://github.com/tharushi-navodya/food-web-app",
+      liveUrl: "#",
+      status: "Completed"
+    },
+    {
+      id: 3,
+      title: "Turbo Sales Fast Food Delivery Mobile App - Figma",
+      description: "UI/UX design for a fast food delivery mobile application created using Figma with focus on user experience and modern design principles.",
+      image: mobileAppProject,
+      technologies: ["Figma", "UI/UX Design", "Prototyping"],
+      role: "UI/UX Designer",
+      features: [
+        "Complete mobile app design",
+        "User journey mapping",
+        "Interactive prototypes",
+        "Modern UI components",
+        "Design system creation"
+      ],
+      githubUrl: "#",
+      liveUrl: "#",
       status: "Completed"
     }
   ];

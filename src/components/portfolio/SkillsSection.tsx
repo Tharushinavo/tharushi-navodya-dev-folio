@@ -15,11 +15,11 @@ export const SkillsSection = () => {
       icon: Code,
       title: "Programming Languages",
       skills: [
-        { name: "JavaScript", level: "Advanced" },
-        { name: "TypeScript", level: "Intermediate" },
         { name: "Java", level: "Advanced" },
-        { name: "Python", level: "Intermediate" },
-        { name: "C++", level: "Intermediate" }
+        { name: "JavaScript", level: "Advanced" },
+        { name: "HTML", level: "Advanced" },
+        { name: "CSS", level: "Advanced" },
+        { name: "Spring Boot", level: "Intermediate" }
       ]
     },
     {
@@ -28,20 +28,20 @@ export const SkillsSection = () => {
       skills: [
         { name: "React", level: "Advanced" },
         { name: "HTML/CSS", level: "Advanced" },
-        { name: "Tailwind CSS", level: "Advanced" },
-        { name: "Vue.js", level: "Intermediate" },
-        { name: "Sass/SCSS", level: "Intermediate" }
+        { name: "JavaScript", level: "Advanced" },
+        { name: "Responsive Design", level: "Advanced" },
+        { name: "UI/UX Design", level: "Intermediate" }
       ]
     },
     {
       icon: Server,
       title: "Backend Development",
       skills: [
-        { name: "Node.js", level: "Advanced" },
-        { name: "Spring Boot", level: "Intermediate" },
-        { name: "Express.js", level: "Advanced" },
+        { name: "Spring Boot", level: "Advanced" },
+        { name: "Java", level: "Advanced" },
         { name: "REST APIs", level: "Advanced" },
-        { name: "GraphQL", level: "Beginner" }
+        { name: "Server Management", level: "Intermediate" },
+        { name: "System Design", level: "Intermediate" }
       ]
     },
     {
@@ -49,53 +49,32 @@ export const SkillsSection = () => {
       title: "Databases & Tools",
       skills: [
         { name: "MongoDB", level: "Advanced" },
-        { name: "PostgreSQL", level: "Intermediate" },
-        { name: "MySQL", level: "Intermediate" },
-        { name: "Firebase", level: "Intermediate" },
-        { name: "Redis", level: "Beginner" }
+        { name: "MySQL", level: "Advanced" },
+        { name: "Database Design", level: "Intermediate" },
+        { name: "Data Management", level: "Intermediate" },
+        { name: "Query Optimization", level: "Intermediate" }
       ]
     },
     {
       icon: Smartphone,
-      title: "Mobile Development",
+      title: "Mobile & Design",
       skills: [
-        { name: "React Native", level: "Intermediate" },
-        { name: "Android Studio", level: "Intermediate" },
-        { name: "Flutter", level: "Beginner" },
-        { name: "Mobile UI/UX", level: "Advanced" }
-      ]
-    },
-    {
-      icon: Palette,
-      title: "Design & UI/UX",
-      skills: [
+        { name: "Android Studio", level: "Advanced" },
         { name: "Figma", level: "Advanced" },
-        { name: "Adobe XD", level: "Intermediate" },
-        { name: "Photoshop", level: "Intermediate" },
-        { name: "User Research", level: "Intermediate" },
-        { name: "Prototyping", level: "Advanced" }
-      ]
-    },
-    {
-      icon: GitBranch,
-      title: "DevOps & Tools",
-      skills: [
-        { name: "Git/GitHub", level: "Advanced" },
-        { name: "Docker", level: "Beginner" },
-        { name: "AWS", level: "Beginner" },
-        { name: "CI/CD", level: "Beginner" },
-        { name: "Linux", level: "Intermediate" }
+        { name: "Mobile UI/UX", level: "Advanced" },
+        { name: "Prototyping", level: "Advanced" },
+        { name: "User Research", level: "Intermediate" }
       ]
     },
     {
       icon: Layers,
-      title: "Frameworks & Libraries",
+      title: "Frameworks & Stack",
       skills: [
-        { name: "React Ecosystem", level: "Advanced" },
-        { name: "Material-UI", level: "Advanced" },
-        { name: "Bootstrap", level: "Advanced" },
-        { name: "Socket.io", level: "Intermediate" },
-        { name: "Jest", level: "Intermediate" }
+        { name: "MERN Stack", level: "Advanced" },
+        { name: "Spring Boot", level: "Advanced" },
+        { name: "Express.js", level: "Intermediate" },
+        { name: "Node.js", level: "Intermediate" },
+        { name: "Bootstrap", level: "Advanced" }
       ]
     }
   ];
@@ -186,13 +165,13 @@ export const SkillsSection = () => {
           <div className="text-center mt-16 animate-fade-in">
             <div className="project-card max-w-2xl mx-auto p-6">
               <h3 className="font-semibold text-lg mb-3">Currently Learning</h3>
-              <div className="flex flex-wrap justify-center gap-2">
-                <span className="skill-tag">Machine Learning</span>
+               <div className="flex flex-wrap justify-center gap-2">
+                <span className="skill-tag">Integration</span>
                 <span className="skill-tag">Cloud Computing</span>
-                <span className="skill-tag">Microservices</span>
-                <span className="skill-tag">Blockchain</span>
-                <span className="skill-tag">GraphQL</span>
-              </div>
+                <span className="skill-tag">Project Management</span>
+                <span className="skill-tag">Team Leadership</span>
+                <span className="skill-tag">Communication</span>
+               </div>
             </div>
           </div>
         </div>

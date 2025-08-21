@@ -47,22 +47,22 @@ export const AboutSection = () => {
               <div className="prose prose-lg max-w-none">
                 <p className="text-muted-foreground leading-relaxed mb-6">
                   I'm Tharushi Navodya, a proactive Information Technology undergraduate 
-                  who believes in the power of technology to solve real-world problems. 
-                  My journey in software development began with curiosity and has evolved 
-                  into a passion for creating meaningful digital experiences.
+                  specializing in Information Technology at SLIIT. I believe in leveraging 
+                  technology to create innovative solutions that address real-world challenges 
+                  and make a meaningful impact in people's lives.
                 </p>
                 
                 <p className="text-muted-foreground leading-relaxed mb-6">
-                  Currently pursuing my degree while actively working on projects that 
-                  challenge me to grow both technically and creatively. I specialize in 
-                  full-stack development and UI/UX design, always striving to balance 
-                  functionality with beautiful, intuitive interfaces.
+                  Currently pursuing my degree while actively developing practical projects 
+                  that span web applications, mobile development, and system design. 
+                  I have hands-on experience with modern technologies and frameworks, 
+                  always focusing on creating user-centric solutions.
                 </p>
                 
                 <p className="text-muted-foreground leading-relaxed">
-                  When I'm not coding, you'll find me exploring new technologies, 
-                  contributing to open-source projects, or researching the latest 
-                  trends in user experience design.
+                  My passion lies in full-stack development and creating seamless digital 
+                  experiences. I'm constantly learning new technologies and methodologies 
+                  to stay at the forefront of software innovation.
                 </p>
               </div>
             </div>

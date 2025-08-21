@@ -6,58 +6,58 @@ export const CertificatesSection = () => {
   const certificates = [
     {
       id: 1,
-      title: "Full Stack Web Development",
-      issuer: "FreeCodeCamp",
+      title: "Front End Development - HTML",
+      issuer: "Great Learning",
       date: "2024",
       type: "Certification",
-      description: "Comprehensive program covering HTML, CSS, JavaScript, React, Node.js, and database management.",
-      skills: ["React", "Node.js", "MongoDB", "RESTful APIs"],
-      credentialUrl: "https://freecodecamp.org/certification/tharushi-navodya/responsive-web-design",
+      description: "Comprehensive HTML fundamentals and best practices for modern web development including semantic HTML and accessibility.",
+      skills: ["HTML5", "Semantic HTML", "Web Standards", "Accessibility"],
+      credentialUrl: "#",
       status: "Completed"
     },
     {
       id: 2,
-      title: "Google UX Design Certificate",
-      issuer: "Google Career Certificates",
-      date: "2023",
-      type: "Professional Certificate",
-      description: "User experience design fundamentals, wireframing, prototyping, and user research methodologies.",
-      skills: ["Figma", "User Research", "Prototyping", "Usability Testing"],
-      credentialUrl: "https://coursera.org/verify/professional-cert/google-ux-design",
+      title: "Front End Development - CSS",
+      issuer: "Great Learning", 
+      date: "2024",
+      type: "Certification",
+      description: "Advanced CSS styling techniques, responsive design principles, and modern layout methods for creating beautiful web interfaces.",
+      skills: ["CSS3", "Flexbox", "Grid", "Responsive Design"],
+      credentialUrl: "#",
       status: "Completed"
     },
     {
       id: 3,
-      title: "AWS Cloud Practitioner",
-      issuer: "Amazon Web Services",
+      title: "Web Development - Advanced CSS3",
+      issuer: "Alison",
       date: "2024",
-      type: "Cloud Certification",
-      description: "Foundation-level understanding of AWS Cloud services, architecture, and best practices.",
-      skills: ["Cloud Computing", "AWS Services", "Security", "Pricing"],
+      type: "Certification",
+      description: "Advanced CSS3 features including animations, transitions, and modern layout techniques for enhanced user experiences.",
+      skills: ["CSS3", "Animations", "Transitions", "Advanced Selectors"],
       credentialUrl: "#",
-      status: "In Progress"
+      status: "Completed"
     },
     {
       id: 4,
-      title: "Oracle Java SE Programming",
-      issuer: "Oracle University",
-      date: "2023",
-      type: "Technical Certification",
-      description: "Object-oriented programming concepts, Java syntax, and application development.",
-      skills: ["Java", "OOP", "Data Structures", "Algorithms"],
-      credentialUrl: "https://education.oracle.com/java-se-8-programmer-i",
+      title: "Artificial Intelligence in Project Management",
+      issuer: "Alison",
+      date: "2024",
+      type: "Professional Certificate",
+      description: "Integration of AI technologies in project management workflows, automation, and data-driven decision making processes.",
+      skills: ["AI", "Project Management", "Process Automation", "Data Analysis"],
+      credentialUrl: "#",
       status: "Completed"
     },
     {
       id: 5,
-      title: "Agile Project Management",
-      issuer: "Scrum Alliance",
+      title: "Java Programming",
+      issuer: "Great Learning",
       date: "2024",
-      type: "Methodology",
-      description: "Agile principles, Scrum framework, and collaborative project management techniques.",
-      skills: ["Scrum", "Agile", "Project Management", "Team Leadership"],
+      type: "Programming Certificate",
+      description: "Core Java programming concepts, object-oriented programming principles, and application development fundamentals.",
+      skills: ["Java", "OOP", "Data Structures", "Algorithms"],
       credentialUrl: "#",
-      status: "In Progress"
+      status: "Completed"
     }
   ];
 
@@ -164,22 +164,22 @@ export const CertificatesSection = () => {
             <div className="project-card max-w-2xl mx-auto p-8 text-center">
               <div className="flex items-center justify-center gap-3 mb-4">
                 <Award className="w-8 h-8 text-primary" />
-                <h4 className="text-xl font-bold">Bachelor of Information Technology</h4>
+                <h4 className="text-xl font-bold">Bachelor's Information Technology Specializing in Information Technology</h4>
               </div>
               
               <p className="text-muted-foreground mb-2">
-                University of Colombo School of Computing
+                Sri Lanka Institute of Information Technology (SLIIT)
               </p>
               <div className="flex items-center justify-center gap-1 text-muted-foreground text-sm mb-4">
                 <Calendar className="w-4 h-4" />
-                2022 - Present (Expected 2026)
+                2023 - Present (Expected 2027)
               </div>
               
               <p className="text-muted-foreground leading-relaxed mb-6">
-                Pursuing a comprehensive degree in Information Technology with focus on 
-                software engineering, database systems, and human-computer interaction. 
-                Maintaining strong academic performance while actively participating in 
-                programming competitions and tech communities.
+                Pursuing a specialized degree in Information Technology with focus on 
+                software development, system design, and emerging technologies. 
+                Actively engaged in practical projects while maintaining strong 
+                academic performance and participating in technology initiatives.
               </p>
               
               <div className="flex flex-wrap justify-center gap-2">
