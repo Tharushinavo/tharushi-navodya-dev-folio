@@ -142,6 +142,11 @@ export const CertificatesSection = () => {
                             variant="outline" 
                             size="sm" 
                             className="btn-outline"
+                            onClick={() => {
+                              if (cert.credentialUrl && cert.credentialUrl !== '#') {
+                                window.open(cert.credentialUrl, '_blank');
+                              }
+                            }}
                           >
                             <ExternalLink className="w-4 h-4 mr-2" />
                             View Credential

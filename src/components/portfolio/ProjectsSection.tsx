@@ -20,7 +20,7 @@ export const ProjectsSection = () => {
         "Household management system",
         "Responsive design"
       ],
-      githubUrl: "https://github.com/tharushi-navodya/grocery-household",
+      githubUrl: "https://github.com/Tharushinavo/grocery-household",
       liveUrl: "#",
       status: "Completed"
     },
@@ -38,7 +38,7 @@ export const ProjectsSection = () => {
         "User authentication",
         "Payment integration"
       ],
-      githubUrl: "https://github.com/tharushi-navodya/food-web-app",
+      githubUrl: "https://github.com/Tharushinavo/food-web-app",
       liveUrl: "#",
       status: "Completed"
     },
@@ -56,7 +56,7 @@ export const ProjectsSection = () => {
         "Modern UI components",
         "Design system creation"
       ],
-      githubUrl: "#",
+      githubUrl: "https://github.com/Tharushinavo",
       liveUrl: "#",
       status: "Completed"
     }
@@ -98,11 +98,20 @@ export const ProjectsSection = () => {
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-end justify-center pb-6">
                       <div className="flex gap-3">
-                        <Button size="sm" className="btn-primary">
+                        <Button 
+                          size="sm" 
+                          className="btn-primary"
+                          onClick={() => window.open(project.liveUrl !== '#' ? project.liveUrl : project.githubUrl, '_blank')}
+                        >
                           <ExternalLink className="w-4 h-4 mr-2" />
                           View Live
                         </Button>
-                        <Button size="sm" variant="outline" className="btn-outline">
+                        <Button 
+                          size="sm" 
+                          variant="outline" 
+                          className="btn-outline"
+                          onClick={() => window.open(project.githubUrl, '_blank')}
+                        >
                           <Github className="w-4 h-4 mr-2" />
                           Code
                         </Button>
@@ -154,11 +163,18 @@ export const ProjectsSection = () => {
                   
                   {/* Action Buttons */}
                   <div className="flex gap-4 pt-4">
-                    <Button className="btn-primary">
+                    <Button 
+                      className="btn-primary"
+                      onClick={() => window.open(project.liveUrl !== '#' ? project.liveUrl : project.githubUrl, '_blank')}
+                    >
                       <ExternalLink className="w-4 h-4 mr-2" />
                       View Live Demo
                     </Button>
-                    <Button variant="outline" className="btn-outline">
+                    <Button 
+                      variant="outline" 
+                      className="btn-outline"
+                      onClick={() => window.open(project.githubUrl, '_blank')}
+                    >
                       <Github className="w-4 h-4 mr-2" />
                       View Code
                     </Button>
@@ -173,7 +189,12 @@ export const ProjectsSection = () => {
             <p className="text-muted-foreground mb-6">
               Want to see more of my work?
             </p>
-            <Button variant="outline" size="lg" className="btn-outline">
+            <Button 
+              variant="outline" 
+              size="lg" 
+              className="btn-outline"
+              onClick={() => window.open('https://github.com/Tharushinavo', '_blank')}
+            >
               <Github className="w-5 h-5 mr-2" />
               View All Projects on GitHub
             </Button>

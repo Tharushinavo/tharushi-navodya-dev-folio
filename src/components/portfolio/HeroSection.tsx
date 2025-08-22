@@ -12,6 +12,16 @@ export const HeroSection = () => {
     document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
   };
 
+  const downloadCV = () => {
+    // Create a temporary link element to download CV
+    const link = document.createElement('a');
+    link.href = '/cv/Tharushi_Navodya_CV.pdf'; // You'll need to add your CV file to public/cv/ folder
+    link.download = 'Tharushi_Navodya_CV.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section 
       id="hero" 
@@ -61,7 +71,7 @@ export const HeroSection = () => {
                 View My Work
               </Button>
               <Button 
-                onClick={scrollToContact}
+                onClick={downloadCV}
                 variant="outline" 
                 size="lg"
                 className="btn-outline px-8 py-3 text-lg font-medium"
@@ -74,7 +84,7 @@ export const HeroSection = () => {
             {/* Social Links */}
             <div className="flex gap-4">
               <a 
-                href="https://linkedin.com/in/tharushi-navodya" 
+                href="https://www.linkedin.com/in/tharushi-navodya-6a05aa259" 
                 className="p-3 rounded-full border border-border hover:border-primary hover:glow-primary transition-all duration-300"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -82,7 +92,7 @@ export const HeroSection = () => {
                 <Linkedin className="w-5 h-5 text-muted-foreground hover:text-primary transition-colors" />
               </a>
               <a 
-                href="https://github.com/tharushi-navodya" 
+                href="https://github.com/Tharushinavo" 
                 className="p-3 rounded-full border border-border hover:border-primary hover:glow-primary transition-all duration-300"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -90,7 +100,7 @@ export const HeroSection = () => {
                 <Github className="w-5 h-5 text-muted-foreground hover:text-primary transition-colors" />
               </a>
               <a 
-                href="mailto:tharushinavodya@gmail.com" 
+                href="mailto:tharushinavodya233@gmail.com" 
                 className="p-3 rounded-full border border-border hover:border-primary hover:glow-primary transition-all duration-300"
               >
                 <Mail className="w-5 h-5 text-muted-foreground hover:text-primary transition-colors" />
