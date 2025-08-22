@@ -97,25 +97,15 @@ export const ProjectsSection = () => {
                       className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-end justify-center pb-6">
-                      <div className="flex gap-3">
-                        <Button 
-                          size="sm" 
-                          className="btn-primary"
-                          onClick={() => window.open(project.liveUrl !== '#' ? project.liveUrl : project.githubUrl, '_blank')}
-                        >
-                          <ExternalLink className="w-4 h-4 mr-2" />
-                          View Live
-                        </Button>
-                        <Button 
-                          size="sm" 
-                          variant="outline" 
-                          className="btn-outline"
-                          onClick={() => window.open(project.githubUrl, '_blank')}
-                        >
-                          <Github className="w-4 h-4 mr-2" />
-                          Code
-                        </Button>
-                      </div>
+                      <Button 
+                        size="sm" 
+                        variant="outline" 
+                        className="btn-outline"
+                        onClick={() => window.open(project.githubUrl, '_blank')}
+                      >
+                        <Github className="w-4 h-4 mr-2" />
+                        View Code
+                      </Button>
                     </div>
                   </div>
                 </div>
@@ -163,13 +153,6 @@ export const ProjectsSection = () => {
                   
                   {/* Action Buttons */}
                   <div className="flex gap-4 pt-4">
-                    <Button 
-                      className="btn-primary"
-                      onClick={() => window.open(project.liveUrl !== '#' ? project.liveUrl : project.githubUrl, '_blank')}
-                    >
-                      <ExternalLink className="w-4 h-4 mr-2" />
-                      View Live Demo
-                    </Button>
                     <Button 
                       variant="outline" 
                       className="btn-outline"
