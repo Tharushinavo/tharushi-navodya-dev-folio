@@ -41,19 +41,19 @@ export const ContactSection = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "tharushinavodya@gmail.com",
-      link: "mailto:tharushinavodya@gmail.com"
+      value: "tharushinavodya233@gmail.com",
+      link: "mailto:tharushinavodya233@gmail.com"
     },
     {
       icon: Phone,
       title: "Phone",
-      value: "+94 70 111 5711",
-      link: "tel:+94701115711"
+      value: "070 112 1125",
+      link: "tel:0701121125"
     },
     {
       icon: MapPin,
       title: "Location",
-      value: "Thalawathugoda, Pannipitiya",
+      value: "Thalammehera, Pannala",
       link: "#"
     }
   ];
@@ -62,20 +62,14 @@ export const ContactSection = () => {
     {
       icon: Github,
       name: "GitHub",
-      url: "https://github.com/tharushi-navodya",
-      username: "@tharushi-navodya"
+      url: "https://github.com/Tharushinavo",
+      username: "@Tharushinavo"
     },
     {
       icon: Linkedin,
       name: "LinkedIn",
-      url: "https://linkedin.com/in/tharushi-navodya",
-      username: "/in/tharushi-navodya"
-    },
-    {
-      icon: Twitter,
-      name: "Twitter",
-      url: "https://twitter.com/tharushi_dev",
-      username: "@tharushi_dev"
+      url: "https://www.linkedin.com/in/tharushi-navodya-6a05aa259",
+      username: "/in/tharushi-navodya-6a05aa259"
     }
   ];
 
